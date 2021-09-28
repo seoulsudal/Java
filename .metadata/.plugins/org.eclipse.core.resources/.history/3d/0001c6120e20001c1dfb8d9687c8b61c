@@ -10,7 +10,6 @@ public class Point {
 	public Point() {
 		super();
 	}
-	//하하
 
 	// 중복 생성자
 	public Point(int x, int y) {
