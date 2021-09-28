@@ -1,0 +1,5 @@
+package com.ruby.java.ch16;
+
+public class Phone extends Thread {
+
+}

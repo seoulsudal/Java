@@ -1,0 +1,8 @@
+package object;
+
+public class MyObject {
+
+	public String toString() {
+		return "MyObject";
+	}
+}

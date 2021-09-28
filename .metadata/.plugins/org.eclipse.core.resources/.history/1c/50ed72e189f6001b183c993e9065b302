@@ -1,0 +1,60 @@
+import java.util.Scanner;
+
+public class Test23 {
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		
+		int startTime;		//출발시간 변수 선언
+		int starthour;		//출발 시 변수 선언
+		int startminute;	//출발 분 변수 선언
+		int startsecond;	//출발 초 변수 선언
+		int endTime;		//도착시간 변수 선언
+		int endhour;		//출발 시 변수 선언
+		int endminute;		//출발 분 변수 선언
+		int endsecond;		//출발 초 변수 선언
+		int time;			//통학시간 변수 선언
+		int averageTime;	//평균시간 변수 선언
+		int station;		//역 변수 선언
+		
+		System.out.println("출발 시를 입력하세요.");
+		starthour = input.nextInt();	//출발 시 입력
+		starthour = starthour * 3600;
+		
+		System.out.println("출발 분을 입력하세요.");
+		startminute = input.nextInt();	//출발 분 입력
+		startminute = startminute * 60;
+		
+		System.out.println("출발 초를 입력하세요.");
+		startsecond = input.nextInt();	//출발 초 입력
+		
+		startTime = starthour + startminute + startsecond; // 출발시간 초로 변환
+		
+		System.out.println("도착 시를 입력하세요.");
+		endhour = input.nextInt();	//도착 시 입력
+		endhour = endhour * 3600;
+		
+		System.out.println("도착 분을 입력하세요.");
+		endminute = input.nextInt();	//도착 분 입력
+		endminute = endminute * 60;
+		
+		System.out.println("도착 초를 입력하세요.");
+		endsecond = input.nextInt();	//도착 초 입력
+		
+		endTime = endhour + endminute + endsecond; // 도착시간 초로 변환
+		
+		time = endTime - startTime;		//총 시간 계산
+					
+		System.out.println("통학하는 역의 숫자를 입력하세요.");
+		station = input.nextInt();		//역의 숫자 입력
+		
+		averageTime = time / station;	//통학시간 입력
+		
+		System.out.println("평균 통학 시간은 "+averageTime+"초 입니다.");
+		
+		
+
+	}
+
+}

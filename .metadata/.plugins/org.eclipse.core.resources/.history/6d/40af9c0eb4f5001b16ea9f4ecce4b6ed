@@ -1,0 +1,42 @@
+import java.util.Scanner;
+
+public class Test10 {
+
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+		
+		String name;
+		int age;
+		String sex;
+		String number;
+		String adress;
+		
+		System.out.println("나의 신상정보를 입력하세요.");
+		
+		System.out.println("이름 : ");
+		name = input.nextLine();
+		
+		System.out.println("나이 : ");
+		age = input.nextInt();
+		
+		//System.out.println("성별 : ");
+		//sex = input.nextLine();
+		
+		System.out.println("연락처 : ");
+		number = input.nextLine();
+		
+		System.out.println("주소 : ");
+		adress = input.nextLine();
+		
+		System.out.print("이름은 "+name+" 이고,");
+		System.out.print("나이는 "+age+"살, ");
+		//System.out.print("성별은 "+sex+",");
+		System.out.print("연락처는 "+number+",");
+		System.out.print("주소는 "+adress+" 입니다.");
+		
+		input.close();
+				
+	}
+
+}

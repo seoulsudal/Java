@@ -1,0 +1,9 @@
+package com.ruby.java.ch16;
+
+public class ProductAdd implements Runnable {
+
+	@Override
+	public void run() {
+	}
+
+}

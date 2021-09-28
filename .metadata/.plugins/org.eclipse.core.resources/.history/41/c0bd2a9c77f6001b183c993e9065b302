@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+public class Test18 {
+
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+		
+		String graduation;		//졸업 변수 선언
+		int total;				//총학점 변수 선언
+		int major;				//전공 변수 선언
+		int liberal;			//교양 변수 선언
+		int general;			//일반 변수 선언
+		
+		System.out.println("전공 점수를 입력하세요.");
+		major = input.nextInt();
+		
+		System.out.println("교양 점수를 입력하세요.");
+		liberal = input.nextInt();
+		
+		System.out.println("일반 점수를 입력하세요.");
+		general = input.nextInt();
+						
+		total = major + liberal + general; //총학점 수식
+		
+		graduation = ( total >= 140 && major >= 70 && ((liberal >=30 && general >= 30) || liberal + general >= 80))  ? "졸업" : "재수강";
+				
+		
+		System.out.println(graduation);
+		
+		
+		
+
+	}
+
+}

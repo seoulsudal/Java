@@ -1,0 +1,19 @@
+public class VendingMachine {
+
+	public static void main(String[] args) {
+		System.out.println("                           ☆음료 자판기☆");
+		System.out.println("");
+		System.out.println("                             -메뉴-");
+		System.out.println("┌────────────────┬──────────────────────┐");
+		System.out.println("│1.콜라(1,500)\t │2.제로콜라(1,600)\t│ ");
+		System.out.println("│3.사이다(1,500)\t │4.환타(1,600)   \t│");
+		System.out.println("│5.레쓰비(1,000)\t │6.TOP(2,000)\t ");
+		System.out.println("│7.조지아(1,800)\t │8.오란C(1,200)");
+		System.out.println("│9.생수(1,000)\t │10.에너지드링크(2,500)");
+		System.out.println("└────────────────┴──────────────────────");
+		System.out.println("금액을 투입하세요.");
+
+
+	}
+
+}

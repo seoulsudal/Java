@@ -1,0 +1,20 @@
+
+public class Test {
+
+	public static void main(String[] args) {
+
+		Person p1 = new Student();
+		Person p2 = new Employee();
+		Person p3 = new Faculty();
+		Person p4 = new Staff();
+		
+		p1.setName("현용주");
+		p1.setNumber("010-8765-9618");
+		p1.setAddress("송파구");
+		p1.setEmail("gusdydwn7@naver.com");
+		((Student) p1).getFIRST_GRADER();
+		
+		System.out.println(p1);
+	}
+
+}

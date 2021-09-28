@@ -1,0 +1,12 @@
+package pattern;
+
+public class Test19 {
+
+	public static void main(String[] args) {
+
+		String title = "**** 2018 Olympic ****";
+		title = title.replace("\\*", "=");
+		System.out.println(title);
+	}
+
+}

@@ -1,0 +1,12 @@
+package a;
+
+import a.b.*;
+import a.b.c.C;
+
+public class A {
+	
+	B b = new B();
+	C c = new C();
+	B1 b1 = new B1();
+	
+}

@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class TheaterReserve {
+
+	public static void main(String[] args) {
+		
+		// 스캐너 생성
+		Scanner input = new Scanner(System.in);
+		// 변수 생성
+		int seat;		// 좌석
+		
+		
+		System.out.println("--------------------");
+		System.out.println("1 2 3 4 5 6 7 8 9 10");
+
+	}
+
+}

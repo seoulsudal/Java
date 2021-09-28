@@ -1,0 +1,16 @@
+
+public class Test16 {
+
+	public static void main(String[] args) {
+		
+		double a;	//a변수 선언
+		double b;	//b변수 선언
+		
+		a=3.1;	//a값 입력 00000011
+		b=3.11;	//b값 입력 00000101
+		
+		System.out.print(a<b);
+
+	}
+
+}

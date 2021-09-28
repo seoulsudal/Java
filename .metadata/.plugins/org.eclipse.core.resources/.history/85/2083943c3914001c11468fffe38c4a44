@@ -1,0 +1,36 @@
+package Bag;
+
+public class Bag<T> {
+
+	/*
+	 * private T thing;
+	 * 
+	 * public Bag(T thing) { this.thing = thing; }
+	 * 
+	 * public T getThing() { return thing; }
+	 * 
+	 * public void setThing(T thing) { this.thing = thing; }
+	 * 
+	 * public void showType() { System.out.println("T의 타입은 " +
+	 * thing.getClass().getName()); }
+	 */
+
+	private Object thing;
+
+	public Bag(Object thing) {
+		this.thing = thing;
+	}
+
+	public Object getThing() {
+		return thing;
+	}
+
+	public void setThing(Object thing) {
+		this.thing = thing;
+	}
+	
+	public void showType() {
+		System.out.println("T의 타입은 " + thing.getClass().getName()); 
+	}
+
+}

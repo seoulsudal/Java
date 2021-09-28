@@ -1,0 +1,30 @@
+import Bag.*;
+
+
+public class BagTest {
+
+	public static void main(String[] args) {
+
+/*		Bag<Book> bag = new Bag<>(new Book());
+		Bag<PencilCase> bag2 = new Bag<>(new PencilCase());
+		Bag<Notebook> bag3 = new Bag<Notebook>(new Notebook());
+		
+		bag.showType();
+		bag2.showType();
+		bag3.showType();
+	}
+*/
+		Bag bag = new Bag(new Book());
+		Bag bag2 = new Bag(new PencilCase());
+		Bag bag3 = new Bag(new Notebook());
+		
+		Book book = (Book) bag.getThing();
+		PencilCase pc = (PencilCase) bag2.getThing();
+		Notebook nb = (Notebook) bag3.getThing();
+		
+		
+		bag.showType();
+		bag2.showType();
+		bag3.showType();
+	}
+}

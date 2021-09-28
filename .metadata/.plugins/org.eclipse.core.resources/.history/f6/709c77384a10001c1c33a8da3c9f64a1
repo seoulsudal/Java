@@ -1,0 +1,11 @@
+package object;
+
+public class MyObject {
+	
+	int num;
+	
+	public String toString() {
+		return "MyObject";
+	}
+
+}

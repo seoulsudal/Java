@@ -1,0 +1,18 @@
+
+public class Greeting {
+
+	public static void main(String[] args) {
+		
+		String name;
+		name = StringPrint("홍길동");
+
+	}
+	
+	// 하나의 문자열 출력 메소드
+	public static String StringPrint(String str) {
+		String hi;
+		hi = " 안녕!";
+		return str + hi;
+		}
+	
+}

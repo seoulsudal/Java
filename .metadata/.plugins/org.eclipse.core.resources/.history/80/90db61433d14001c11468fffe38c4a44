@@ -1,0 +1,11 @@
+package wildcard;
+
+import java.util.*;
+
+public static double sum(List<? extends Number> list) {
+	double total = 0;
+	for(Number v : list) {
+		total += v.doubleValue();
+	}
+	return total;
+}

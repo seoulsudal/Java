@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class CalculateTheVolumeOfTheCylinder {
+
+	public static void main(String[] args) {
+		// 스캐너 생성
+		Scanner input = new Scanner(System.in);
+		// 변수 생성
+
+	}
+
+}

@@ -1,0 +1,13 @@
+
+public class Test2 {
+
+	public static void main(String[] args) {
+		int depositAmount;      //보증금 변수 선언
+		
+		depositAmount = 50000;  //보증금 변수 초기화
+		
+		System.out.println("보증금 : "depositAmount); 
+
+	}
+
+}

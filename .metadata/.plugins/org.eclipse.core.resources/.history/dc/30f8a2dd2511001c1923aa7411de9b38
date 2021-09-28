@@ -1,0 +1,15 @@
+import com.ruby.java.ch16.Phone;
+
+public class Test07 {
+
+	public static void main(String[] args) {
+
+		Phone calling = new Phone();
+		calling.start();
+		
+		for(int i = 1; i <= 1000; i++) {
+			System.out.println("음식 먹기 : " + i);
+		}
+	}
+
+}

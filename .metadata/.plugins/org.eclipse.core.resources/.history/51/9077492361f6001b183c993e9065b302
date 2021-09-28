@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class Test15 {
+
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+
+		int korean; // 국어 변수 선언
+		int english; // 영어 변수 선언
+		int mathematics; // 수학 변수 선언
+		int sum; // 총점 변수 선언
+		double average; // 평균 변수 선언
+
+		System.out.println("국어 점수를 입력하세요.");
+		korean = input.nextInt(); // 국어 점수 받기
+
+		System.out.println("영어 점수를 입력하세요.");
+		english = input.nextInt(); // 영어 점수 받기
+
+		System.out.println("수학 점수를 입력하세요.");
+		mathematics = input.nextInt(); // 수학 점수 받기
+
+		sum = korean + english + mathematics; // 총점 계산
+		average = sum / 3.0; // 평균 계산
+
+		System.out.print("총점은 " + sum + "점, "); 
+		System.out.printf("평균은 %.2f점 입니다.",average); //소수점 표기하기
+		
+	}
+
+}

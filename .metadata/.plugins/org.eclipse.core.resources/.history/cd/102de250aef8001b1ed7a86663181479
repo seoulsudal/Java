@@ -1,0 +1,11 @@
+import java.util.Scanner;
+
+public class Mile {
+
+	public static void main(String[] args) {
+
+		Scanner input = 
+
+	}
+
+}

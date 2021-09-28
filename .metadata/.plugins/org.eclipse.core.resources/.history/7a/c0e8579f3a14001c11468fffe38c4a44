@@ -1,0 +1,10 @@
+package Bag;
+
+public class PencilCase {
+
+	@Override
+	public String toString() {
+		return "필통";
+	}
+	
+}

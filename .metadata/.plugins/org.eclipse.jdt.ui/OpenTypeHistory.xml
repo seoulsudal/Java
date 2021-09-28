@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=Person/src&lt;{Person.java[Person" modifiers="1" timestamp="1630477040192"/>
+    <typeInfo handle="=GeometricObject/src&lt;{GeometricObject.java[GeometricObject" modifiers="1" timestamp="1630477986423"/>
+    <typeInfo handle="=Student/src&lt;{Human.java[Human" modifiers="1" timestamp="1630480489111"/>
+    <typeInfo handle="=Magazine/src&lt;{Book.java[Book" modifiers="1" timestamp="1630480905157"/>
+    <typeInfo handle="=Fruit/src&lt;{Fruit.java[Fruit" modifiers="1" timestamp="1630481589556"/>
+    <typeInfo handle="=LMSTest/src&lt;{Person.java[Person" modifiers="1" timestamp="1630547376828"/>
+    <typeInfo handle="=Students/src&lt;{Student.java[Student" modifiers="1" timestamp="1630562701181"/>
+    <typeInfo handle="=AbstractExam/src&lt;{Animal.java[Animal" modifiers="1025" timestamp="1630567487542"/>
+    <typeInfo handle="=Employee/src&lt;{Employee.java[Employee" modifiers="1025" timestamp="1630635449444"/>
+    <typeInfo handle="=InterfaceExam/C:\/JavaProject\/eclipse\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\/jre\/lib\/jrt-fs.jar`java.rmi=/module=/true=/=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/15\/docs\/api\/=/&lt;java.rmi(Remote.class[Remote" modifiers="1537" timestamp="1630031060936"/>
+    <typeInfo handle="=InterfaceExam/src&lt;{RemoteControl.java[RemoteControl" modifiers="513" timestamp="1630633142485"/>
+    <typeInfo handle="=Messenger/C:\/JavaProject\/eclipse\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\/jre\/lib\/jrt-fs.jar`jdk.jdeps=/module=/true=/=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/15\/docs\/api\/=/&lt;com.sun.tools.javap(Messages.class[Messages" modifiers="1537" timestamp="1630031060936"/>
+    <typeInfo handle="=Messenger/src&lt;{Messenger.java[Messenger" modifiers="513" timestamp="1630633582241"/>
+    <typeInfo handle="=HRSTest/src&lt;{Employee.java[Employee" modifiers="1" timestamp="1630648014874"/>
+    <typeInfo handle="=HRSTest/src&lt;{Manager.java[Manager" modifiers="1" timestamp="1630648219456"/>
+    <typeInfo handle="=Product/src&lt;{Product.java[Product" modifiers="1" timestamp="1630650940394"/>
+    <typeInfo handle="=Book/src&lt;{Book.java[Book" modifiers="1" timestamp="1630652012881"/>
+    <typeInfo handle="=Book/src&lt;{LateFees.java[LateFees" modifiers="513" timestamp="1630652227126"/>
+    <typeInfo handle="=Messenger2/src&lt;{Messenger.java[Messenger" modifiers="513" timestamp="1630893033888"/>
+    <typeInfo handle="=Exception/C:\/JavaProject\/eclipse\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\/jre\/lib\/jrt-fs.jar`java.base=/module=/true=/=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/15\/docs\/api\/=/&lt;java.lang(Exception.class[Exception" modifiers="33" timestamp="1630031060936"/>
+    <typeInfo handle="=InputOutput/C:\/JavaProject\/eclipse\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\/jre\/lib\/jrt-fs.jar`java.base=/module=/true=/=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/15\/docs\/api\/=/&lt;java.io(Serializable.class[Serializable" modifiers="1537" timestamp="1630031060936"/>
+    <typeInfo handle="=PackageProject/src&lt;graphics{Shape.java[Shape" modifiers="1025" timestamp="1631060859736"/>
+    <typeInfo handle="=PackageProject/src&lt;graphics{Drawable.java[Drawable" modifiers="513" timestamp="1631060872011"/>
+    <typeInfo handle="=JUnitExam/C:\/JavaProject\/eclipse\/plugins\/org.junit_4.13.0.v20200204-1500.jar=/javadoc_location=/http:\/\/junit.org\/junit4\/javadoc\/latest\/=/&lt;junit.framework(TestCase.class[TestCase" modifiers="1057" timestamp="1630031046589"/>
+    <typeInfo handle="=ThreadExam/C:\/JavaProject\/eclipse\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\/jre\/lib\/jrt-fs.jar`java.base=/module=/true=/=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/15\/docs\/api\/=/&lt;java.lang(Runnable.class[Runnable" modifiers="1537" timestamp="1630031060936"/>
+    <typeInfo handle="=ThreadExam/C:\/JavaProject\/eclipse\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\/jre\/lib\/jrt-fs.jar`java.base=/module=/true=/=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/15\/docs\/api\/=/&lt;java.lang(Thread.class[Thread" modifiers="33" timestamp="1630031060936"/>
+    <typeInfo handle="=ThreadExam/C:\/JavaProject\/eclipse\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\/jre\/lib\/jrt-fs.jar`java.desktop=/module=/true=/=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/15\/docs\/api\/=/&lt;javax.swing(JFrame.class[JFrame" modifiers="33" timestamp="1630031060936"/>
+    <typeInfo handle="=GenericExam/src&lt;Bag{Liquid.java[Liquid" modifiers="1" timestamp="1631500175503"/>
+</typeInfoHistroy>

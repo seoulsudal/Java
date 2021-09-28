@@ -1,0 +1,9 @@
+package exam;
+
+public class CatIn extends Thread {
+
+	private AppleBox applebox;
+	private String name;
+	
+	
+}

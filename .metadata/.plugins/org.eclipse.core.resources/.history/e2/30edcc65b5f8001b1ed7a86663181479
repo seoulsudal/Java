@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class PolynomialCalculation {
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		
+		double x;			//x 변수 선언
+		double polynomial;	//다항식 변수 선언
+		
+		System.out.println("x값을 입력하세요.");
+		x = input.nextDouble();	//x 변수 입력
+		
+		polynomial = ( 3 * x * x * x ) + ( 7 * x * x ) + ( 11 * x ) + 6;	//공식 입력
+		
+		System.out.println("x값이 "+x+"인 3x³+7x²+6의 값은 "+polynomial+" 입니다.");
+		ㅈㄷㄱ.ㄱㅅㅃㄸㅉㅆㄲㅁㄴㅇㄹㅎㅋㅌㅊㅊ
+	ㅂ	
+
+	}
+
+}

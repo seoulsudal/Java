@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class CalculateTheVolumeOfASphere {
+
+	public static void main(String[] args) {
+		// 스캐너 입력
+		Scanner input = new Scanner(System.in);	
+		// 변수 선언
+		double radius;		// 반지름
+		double volme;		// 부피 
+		System.out.println("구의 부피를 구하는 프로그램");
+		// 반지름 입력
+		while(true) {
+			System.out.println("반지름을 입력하세요.(예 : 4.6)");
+			radius = input.nextDouble();
+			if(radius <= 0) {
+				System.out.println("0보다 큰 값을 입력해주세요.");
+			}
+			else {
+				break;
+			}
+		volme = calculate(radius);
+		// 결과 출력
+		System.out.println("반지름이 "+radius+"인 구의 부피는 "+volme+" 입니다.(소수점 2자리까지 표기)");
+		}
+	}
+	public static double calculate(double num) {
+		double result;
+		result = ( 4.0 / 3.0 ) * 3.14 * num * num * num;	// 구의 부피 = 4/3 * 상수(3.14) * 반지름 * 반지름 * 반지름 
+		result = (int) (result * 100) / 100.0;				// 소수점 2자리
+		return result;
+	}
+}

@@ -1,0 +1,47 @@
+import java.util.Scanner;
+
+public class CalculateTheVolumeOfTheCylinder {
+
+	public static void main(String[] args) {		
+		// 스캐너 생성
+		Scanner input = new Scanner(System.in);	
+		// 변수 선언
+		double radius;		// 반지름
+		double length;		// 길이
+		double volme;		// 부피
+		System.out.println("실린더의 부피를 구하는 프로그램");
+		// 반지름 입력
+		System.out.println("반지름을 입력하세요.(예 : 4.6)");
+		radius = input.nextDouble();			
+		// 길이 입력
+		System.out.println("길이를 입력하세요.(예 : 8.8)");
+		length = input.nextDouble();
+		// 메소드 입력
+		volme = calculate(radius, length);
+		// 반지름 및 길이 양수 체크
+		if ((radius > 0) && (length > 0)) {
+			// 원기둥 부피 계산
+			area = radius * radius * pi;			// 원기둥 넓이 = 반지름 * 반지름 * 원주율(3.14)
+			volme = area * length;					// 부피 = 원기둥 넓이 * 높이
+			volme = (int) (volme * 100) / 100.0;	// 소수점 2자리
+
+			// 결과 출력
+			System.out.print("반지름이 "+radius+"이고, 길이가 "+length+"인 실린더의 부피는 "+volme+" 이다.(소수점 2자리까지 표기)");
+		}
+
+		
+	}
+	public static double calculate(double num1, double num2) {
+		double area;	// 넓이
+		double result = 0;	// 부피
+		if(num1 > 0 && num2 > 0) {
+			area = num1 * num1 * 3.14;	// 넓이 = 반지름 * 반지름 * 상수(3.14)
+			result = area * num2;		// 부피 = 넓이 * 길이
+			return result;
+		}
+		else {
+			System.out.println("수치를 잘못 입력하셨습니다.");
+			return result;
+		}
+	}
+}

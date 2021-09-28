@@ -1,0 +1,9 @@
+package collections;
+
+public class Shuffling {
+
+	public static void main(String[] args) {
+
+	}
+
+}

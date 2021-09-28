@@ -1,0 +1,10 @@
+package Bag;
+
+public class Notebook {
+	
+	@Override
+	public String toString() {
+		return "공책";
+	}
+	
+}
