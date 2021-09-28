@@ -1,7 +1,0 @@
-package carracing;
-
-import javax.swing.JFrame;
-
-public class CarGame1 extends JFrame {
-
-}

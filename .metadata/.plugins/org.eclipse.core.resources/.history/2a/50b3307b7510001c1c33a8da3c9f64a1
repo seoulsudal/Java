@@ -1,7 +1,0 @@
-package com.junit;
-
-import junit.framework.TestCase;
-
-public class TestDateUtill extends TestCase {
-
-}

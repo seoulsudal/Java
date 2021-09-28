@@ -1,7 +1,0 @@
-package a;
-
-import a.b.B;
-
-public class A {
-	B b = new B();
-}

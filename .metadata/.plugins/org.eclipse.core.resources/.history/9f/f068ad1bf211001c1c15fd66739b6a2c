@@ -1,7 +1,0 @@
-package lamda;
-
-public interface MyfunctionalInterface {
-
-	public void method();
-	
-}

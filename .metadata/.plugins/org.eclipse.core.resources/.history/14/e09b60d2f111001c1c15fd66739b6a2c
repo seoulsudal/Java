@@ -1,9 +1,0 @@
-package lamda;
-
-public class MyfunctionalInterfaceTest {
-
-	public static void main(String[] args) {
-
-	}
-
-}

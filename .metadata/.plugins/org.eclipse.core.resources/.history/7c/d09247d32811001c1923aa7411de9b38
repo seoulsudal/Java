@@ -1,9 +1,0 @@
-package carracing;
-
-public class CarRacingMain {
-
-	public static void main(String[] args) {
-
-	}
-
-}

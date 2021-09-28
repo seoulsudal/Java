@@ -1,9 +1,0 @@
-package com.ruby.java.ch16;
-
-public class Movie implements Runnable {
-
-	@Override
-	public void run() {
-	}
-
-}

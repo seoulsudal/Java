@@ -1,5 +1,0 @@
-package com.ruby.java.ch16;
-
-public class DrawThread extends Thread {
-
-}
