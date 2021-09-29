@@ -20,7 +20,7 @@ public class Add {
 	
 		System.out.println("첫번째 수 "+firstNumber+"와 두번째 수 "+secondNumber+"의 합은 "+sum+" 입니다.");
 		
-
+		//
 	}
 
 }
