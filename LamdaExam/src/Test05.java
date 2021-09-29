@@ -6,7 +6,7 @@ public class Test05 {
 
 		NumberFunc sum = (n) -> {
 			int result = 0;
-			for(int i = 0; i <= n; i++) { 
+			for(int i = 0; i <= n; i++) {
 				result += i;
 			}
 			return result;
