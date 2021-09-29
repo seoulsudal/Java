@@ -11,7 +11,7 @@ public class Car {
 		 color = "blue";
 		// 매개변수 없이 이렇게 해도 상관없음		 
 	}
-	
+	//
 	// 생성자
 	public Car(int s , int m, String c) {
 		speed = s;
